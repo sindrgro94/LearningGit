@@ -14,4 +14,10 @@ public class AppTest
         assertEquals(reverse,ReverseString.reverse(normal));
         //testendring
     }
+    @Test
+    public void doubleTest(){
+        String normal = "Test ";
+        String doubleWord = "Test Test ";
+        assertEquals(doubleWord,DoubleTheWord(doubleWord));
+    }
 }
