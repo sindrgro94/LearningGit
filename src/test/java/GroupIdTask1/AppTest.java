@@ -18,6 +18,6 @@ public class AppTest
     public void doubleTest(){
         String normal = "Test ";
         String doubleWord = "Test Test ";
-        assertEquals(doubleWord,DoubleTheWord(doubleWord));
+        assertEquals(doubleWord,ReverseString.doubleTheWord(normal));
     }
 }
